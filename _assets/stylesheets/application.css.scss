@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+th {
+  text-align: center;
+}
+
 .well#webdev {display:none;}
 .well#author {display:none;}
 img.portrait {border-radius:100px; border:1px solid grey;}
@@ -2072,9 +2076,7 @@ caption {
   color: #999999;
   text-align: left;
 }
-th {
-  text-align: left;
-}
+
 .table {
   width: 100%;
   max-width: 100%;
