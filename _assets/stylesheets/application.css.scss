@@ -1,97 +1,3 @@
-/* Custom CSS - do not remove! */
-footer {
-  padding: 40px 0px 40px 0px;
-}
-body {
-  padding-top: 70px;
-  margin: 0;
-}
-ul.tech-used {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-th {
-  text-align: center;
-}
-.well#webdev {
-  display: none;
-}
-.well#author {
-  display: none;
-}
-img.portrait {
-  border-radius: 10px;
-  border: 1px solid grey;
-  margin-bottom: 2%;
-}
-.table>tbody>tr>td.project-title {
-  vertical-align: middle;
-}
-.table>tbody>tr>td.url {
-  vertical-align: middle;
-}
-.modal-title {
-  margin: 0;
-  line-height: 1.42857143;
-  font-size: 3em;
-}
-.btn {
-  display: inline-block;
-  margin-bottom: 0;
-  font-weight: normal;
-  text-align: center;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  background-image: none;
-  border: 1px solid transparent;
-  white-space: nowrap;
-  padding: 0;
-  font-size: 15px;
-  line-height: 1.42857143;
-  border-radius: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.btn-lg, .btn-group-lg > .btn {
-  padding: 5%;
-  font-size: 2em;
-  line-height: 1.33;
-  border-radius: 0;
-  width: 100%;
-  height: 150px;
-}
-.btn-default {
-  color: #ffffff;
-  background-color: #222222;
-  border-color: #222222;
-  padding: 2%;
-}
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
-  font-weight: 300;
-  color: inherit;
-}
-h1, .h1, h2, .h2, h3, .h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.btn-info {
-  color: #ffffff;
-  background-color: #15549B;
-  border-color: #15549B;
-}
-
-.btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .dropdown-toggle.btn-info {
-  color: #ffffff;
-  background-color: #4B85ED;
-  border-color: #3760E0;
-}
-@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
 /* Bootswatch */
 /*!
 * bootswatch v3.3.1+2
@@ -5545,3 +5451,111 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
 .popover {
   color: #333333;
 }
+
+/* Custom CSS - do not remove! */
+
+footer {
+  padding: 40px 0px 40px 0px;
+}
+body {
+  padding-top: 70px;
+  margin: 0;
+}
+ul.tech-used {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+th {
+  text-align: center;
+}
+.well#webdev {
+  display: none;
+}
+.well#author {
+  display: none;
+}
+img.portrait {
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin-bottom: 2%;
+}
+.table>tbody>tr>td.project-title {
+  vertical-align: middle;
+}
+.table>tbody>tr>td.url {
+  vertical-align: middle;
+}  
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 0;
+  font-size: 15px;
+  line-height: 1.42857143;
+  border-radius: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.btn-lg, .btn-group-lg > .btn {
+  padding: 5%;
+  font-size: 2em;
+  line-height: 1.33;
+  border-radius: 0;
+  width: 100%;
+  height: 150px;
+}
+
+/* Buttons for projects */
+.btn-proj, .btn-lg, .btn-group-lg > .btn
+.btn-default {
+  color: #ffffff;
+  background-color: #222222;
+  border-color: #222222;
+  padding: 2%;
+  font-size:2em;
+}
+
+@media screen and (max-width:500px) {
+  .btn-proj, .btn-lg, .btn-group-lg > .btn
+.btn-default {
+  color: #ffffff;
+  background-color: #222222;
+  border-color: #222222;
+  padding: 1%;
+  font-size:1.5em;
+}
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-weight: 300;
+  color: inherit;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.btn-info {
+  color: #ffffff;
+  background-color: #15549B;
+  border-color: #15549B;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #4B85ED;
+  border-color: #3760E0;
+}
+@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
