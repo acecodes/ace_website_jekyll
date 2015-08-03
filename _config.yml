@@ -1,9 +1,9 @@
 # Site settings
 name: Ace Eddleman
-title: Ace Eddleman | Web Developer
+title: AceCodes | High-quality tech solutions by Ace Eddleman and associates
 email: ace@acecodes.net
 description: > # this means to ignore newlines until "baseurl:"
-  A dedicated professional web developer from Southern California who lives, breathes and eats code. Emphasis on Python with Django or Flask, but always looking to learn new tools.
+  High quality technology solutions from Ace Eddleman and associates.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://acecodes.net" # the base hostname & protocol for your site
 twitter_username: ""

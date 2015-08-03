@@ -27,7 +27,6 @@ a {
 
 .headline {
   text-align:center;
-  margin-top:3%;
 }
 
 p {
@@ -37,6 +36,10 @@ p {
 .subp {
   font-size: 1.2em;
   weight:bold;
+}
+
+.projects {
+    padding:1%;
 }
 
 .services {
@@ -63,4 +66,11 @@ p {
   color: #ffffff;
   background-color: #CA0F0F;
   border-color: #CA0F0F;
+}
+.jumbotron {
+    background-color: #FAFAFA;
+}
+
+.jumbotron:hover {
+    background-color: #E0E0E0;
 }
